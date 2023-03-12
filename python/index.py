@@ -1,6 +1,6 @@
 def app(environ, start_response):
 
-    data = b"Hello, Web!\n"
+    data = b"Oi namorada linda!\n"
 
     start_response("200 OK", [
 
