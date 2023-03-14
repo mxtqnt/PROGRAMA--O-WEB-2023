@@ -1,4 +1,4 @@
-docker tag  f2941f4b0f24 mxtqnt/ifgpw:latest 
+docker tag  5b3c277ea24a mxtqnt/ifgpw:latest 
 
 docker push mxtqnt/ifgpw:latest 
 
@@ -7,3 +7,7 @@ docker run -d -p 6680:80 -p 9443:443  mxtqnt/ifgpw:latest
 
 sudo kill -9 `sudo lsof -t -i:6680`
 sudo lsof -i -P -n | grep LISTEN
+
+
+#fazer local
+docker run -d -p 7880:80 

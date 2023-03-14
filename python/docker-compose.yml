@@ -3,9 +3,8 @@ version: '2'
 services:
   app:
     build: .
-    command: ["php", "./index.php"]
     restart: always
-    container_name: phpcont
+    container_name: pweb-py
     volumes:
       - .:/app
     working_dir: /app
